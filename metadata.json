@@ -1,0 +1,7 @@
+{
+  "name": "Christmas Browser 🎄",
+  "description": "A simple, friendly Christmas-themed browser web app for Christmas School with Help, Information, and Notifications.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+

@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  }
+
+  h1, h2, h3, .font-christmas {
+    font-family: 'Cinzel', Georgia, serif;
+  }
+}
+
+@keyframes twinkle {
+  0%, 100% { opacity: 0.35; transform: scale(0.9); }
+  50% { opacity: 1; transform: scale(1.15); filter: drop-shadow(0 0 6px rgba(251, 191, 36, 0.9)); }
+}
+
+@keyframes gentleSway {
+  0%, 100% { transform: rotate(-2deg); }
+  50% { transform: rotate(2deg); }
+}
+
+.animate-twinkle {
+  animation: twinkle 2.5s infinite ease-in-out;
+}
+
+.animate-sway {
+  animation: gentleSway 4s infinite ease-in-out;
+}
